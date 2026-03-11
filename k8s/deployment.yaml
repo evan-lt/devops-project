@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: devops-demo
-          image: YOUR_DOCKERHUB_USERNAME/devops-demo:latest
+          image: evanltx/devops-demo:latest
           ports:
             - containerPort: 5000
           env:

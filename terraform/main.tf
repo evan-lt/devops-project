@@ -18,7 +18,7 @@ provider "kubernetes" {
 variable "app_image" {
   description = "Docker image for the app"
   type        = string
-  default     = "YOUR_DOCKERHUB_USERNAME/devops-demo:latest"
+  default     = "evanltx/devops-demo:latest"
 }
 
 variable "replicas" {
